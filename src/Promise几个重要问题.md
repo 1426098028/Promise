@@ -22,11 +22,11 @@
 ```
         1.如果抛出异常(throw),新的Promise变为rejected，reason为抛出异常的数据
         2.如果返回(return)的是一个Promise值，此Promise的结果会成为下一个新的Promise的状态   例如 ：如Promise状态为reject，那下一个Promise状态一定为reject状态，reason为返回值
-        3.如果返回(return)的是一个非Promise任意值，新的Promise状态会是resolve，reason为返回值
+        3.如果返回(return)的是一个非Promise任意值，新的Promise状态会是resolve，value为返回值
 ```
 ### 4.Promise构造函数是同步还是异步执行，then和catch呢
 ```
-            Promise构造函数是同步回调，而then和catch是异步回调
+            Promise构造函数是同步回调，而then和catch是异步回调value
 ```
 ### 5.改变Promise状态和指定回调函数谁先谁后?
 
