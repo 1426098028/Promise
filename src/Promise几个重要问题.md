@@ -26,7 +26,7 @@
 ```
 ### 4.Promise构造函数是同步还是异步执行，then和catch呢
 ```
-            Promise构造函数是同步回调，而then和catch是异步回调value
+            Promise构造函数是同步回调，而then和catch是异步回调函数
 ```
 ### 5.改变Promise状态和指定回调函数谁先谁后?
 
